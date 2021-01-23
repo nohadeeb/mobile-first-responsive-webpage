@@ -56,12 +56,42 @@ $desktop-menu-color:#A4AAD0;
 
     &-title{
         font-size: 38px;
-        font-family: "roboto bold";
+        font-family: "roboto";
+        font-weight: bold;
         color: white;
-        width: 60%;
+        width: 95.4%;
         text-align: center;
         margin: auto;
-        padding-top: .6em;
+        padding-top: 30px;
+        font-size: 38px;
+        height: 144px;
+        line-height: 48px;
+    }
+    &-desc{
+      font-size: 38px;
+        font-family: "roboto";
+        
+        color: white;
+        width: 95.4%;
+        text-align: center;
+        margin: auto;
+        padding-top: 30px;
+        font-size: 16px;
+        height: 96px;
+        line-height: 24px;
+    }
+    &-btn{
+      height: 60px;
+      text-align: center;
+      color: white;
+      background-color: $button;
+      
+      padding: 0 18px 0 18px;
+      span{
+        margin: auto;
+      font-size: 18px;
+      
+      }
     }
 }
 .header-menu{
@@ -131,13 +161,26 @@ $desktop-menu-color:#A4AAD0;
     }
 }
 .products{
-    width: 90%;
+    width: 95%;
     margin: auto;
     flex-direction: column;
+    background-color: #F3F3FF;
+      h2{
+        color: #42415B;
+        font-family: "roboto";
+        font-weight: bold;
+        text-align: center;
+        width: 189px;
+        line-height: 60px;
+        font-size: 30px;
+        margin: auto;
+        margin-top: 29px;
+      }
     .card{
         display: flex;
         height: 60px;
         margin-top: 10px;
+        background-color: white;
 
         img{
             padding-left: 16px;
@@ -151,13 +194,66 @@ $desktop-menu-color:#A4AAD0;
 .products>div{
     display: flex;
     flex-direction: column;
-    
+    width: 90%;
+
 }
-        .card:nth-child(1) { border: 1px solid $desktop-menu-color ; }
-        .card:nth-child(2) { border:1px solid $desktop-menu-color }
-        .card:nth-child(3) { border:1px solid $desktop-menu-color }
-        .card:nth-child(4) { border:1px solid $desktop-menu-color }
-        .card:nth-child(5) { border:1px solid $desktop-menu-color }
+        .card:nth-child(1) { border: 1px solid $desktop-menu-color ;
+        border-bottom: #A4AAD0; }
+        .card:nth-child(2) { border:1px solid $desktop-menu-color;border-top: #A4AAD0; }
+        .card:nth-child(3) { border:1px solid $desktop-menu-color; border-bottom: #A4AAD0; }
+        .card:nth-child(4) { border:1px solid $desktop-menu-color; border-top: #A4AAD0; }
+        .card:nth-child(5) { border:1px solid $desktop-menu-color;border-bottom: #A4AAD0; }
+
+.best-broker1{
+  h3{
+        color: #42415B;
+        font-family: "roboto";
+        font-weight: bold;
+        text-align:left;
+        width: 95.4%;
+        line-height: 48px;
+        font-size: 30px;
+        margin-top: 29px;
+        height: 96px;
+      }
+      article{
+        width: 95.4%;
+        margin: auto;
+        height: 683px;
+        color: #170307;
+        text-align: left;
+        line-height: 35px;
+        font-family: "roboto";
+        font-weight: regular;
+        font-size: 20px;
+        
+      }
+}
+.best-broker2{
+  h4{
+        color: #42415B;
+        font-family: "roboto";
+        font-weight: bold;
+        text-align:left;
+        width: 95.4%;
+        line-height: 37px;
+        font-size: 22px;
+        margin-top: 29px;
+        height: 74px;
+      }
+      article{
+        width: 95.4%;
+        margin: auto;
+        height: 386px;
+        color: #42415B;
+        text-align: left;
+        line-height: 30px;
+        font-family: "roboto";
+        font-size: 18px;
+        
+      }
+}
+
 @media only screen and (min-width:767px) and (max-width:1200px){
 .header-menu_right_3{
     display:contents;
@@ -172,6 +268,60 @@ $desktop-menu-color:#A4AAD0;
 }
 .header-menu_right i {
     width: 0%;}
+
+    //slider 
+    .slider{
+    background-image: url("https://i.ibb.co/zbJjfj8/hero-img.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: 172%;
+    background-position: 76% 0%;
+    }
+ // products   
+    .products>div{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+
+}
+.products{
+    width: 95%;
+    margin: auto;
+    div{
+      justify-content: space-around;
+    }
+    
+    background-color: #F3F3FF;
+      h2{
+        color: #42415B;
+        font-family: "roboto";
+        font-weight: bold;
+        text-align: center;
+        width: 189px;
+        line-height: 60px;
+        font-size: 30px;
+        margin: auto;
+        margin-top: 29px;
+      }
+    .card{
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        margin-top: 10px;
+        background-color: white;
+        width: 210px;
+        height: 140px;
+        
+
+        img{
+            padding-left: 16px;
+        }
+        &-body{
+            width: 8em;
+            text-align: center;
+        }
+    }
+}
 }
 @media (min-width:1200px){
     
