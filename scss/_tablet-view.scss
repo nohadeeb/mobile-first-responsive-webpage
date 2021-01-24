@@ -1,3 +1,6 @@
+
+
+
 @media only screen and (min-width:767px) and (max-width:1200px){
 .header-menu_right_3{
     display:contents;
@@ -16,10 +19,11 @@
     //slider 
     .slider{
     background-image: url("https://i.ibb.co/zbJjfj8/hero-img.jpg");
-    height: 90vh;
+    height: 1116px;
     background-repeat: no-repeat;
-    background-size: 172%;
+    background-size: cover;
     background-position: 76% 0%;
+    width: 769px;
     }
  // products   
     .products>div{

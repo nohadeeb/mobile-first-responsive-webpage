@@ -19,5 +19,9 @@ for (i = 0; i < dropdown.length; i++) {
   } else {
   dropdownContent.style.display = "block";
   }
-  });
+  }),false;
+}
+const mQuery = window.matchMedia('(min-width: 768px) and (max-width:1300px)');
+if  (mQuery.matches){
+
 }
