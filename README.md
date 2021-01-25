@@ -1,5 +1,9 @@
-# mobile-first-responsive-webpage + lighthouse SEO 
+# mobile-first-responsive-webpage + lighthouse SEO + cross platform testing.
 Lighthouse SEO reports added through NPM with twoo Json reports file added .
+
+cross platform testing was made through comparium app , we can also use testcafe through npm with lambdatest which is paid platform and many other tools and apps.
+crossplatform test browser comparison here : https://front.comparium.app/?url=https://nohadeeb.github.io/mobile-first-responsive-webpage/&browser=10WINDOWS_firefox_82.0_1024&browser=10WINDOWS_chrome_87.0_1024&browser=WINDOWS_chrome_87.0_1024&browser=OSX_chrome_87.0_1024
+
 in this task the challenge was duplicating and develop a mobile first fully responsive web page with the best code structure.
 
  I used javascript only on the header and menu section , to convert the regular desktop header to a mobile header with burger menu added. javascript code : close-btn() open-btn() and dropwn internal menu.
