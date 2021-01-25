@@ -145,7 +145,7 @@
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .slider-btn {
     width: 26%;
-    height: 11%;
+    height: 13%;
     font-size: 18px;
     margin-top: 27px;
     line-height: 24px;
@@ -156,7 +156,7 @@
 @media only screen and (min-width: 1025px) {
   .slider-btn {
     width: 200px;
-    height: 8%;
+    height: 10%;
     font-size: 18px;
     margin-top: 27px;
     line-height: 24px;
