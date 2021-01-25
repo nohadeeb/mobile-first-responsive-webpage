@@ -412,6 +412,7 @@
   height: 20%;
   margin-top: 3.5%;
   background-color: white;
+  align-items: center;
 }
 .products .card:hover {
   background-color: #9CA2C6;
@@ -462,7 +463,7 @@
   line-height: 1.5;
   font-size: 1.9em;
   margin-top: 1em;
-  height: 30%;
+  height: 16%;
 }
 .best-broker1 article {
   width: 95.4%;
@@ -517,6 +518,11 @@
 
   .slider-desc {
     width: 47.5%;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -841,7 +847,7 @@
   .products {
     width: 95%;
     margin: auto;
-    height: 54vh;
+    height: 37vh;
     background-color: #F3F3FF;
   }
   .products div {

@@ -47,6 +47,7 @@
         height: 20%;
         margin-top: 3.5%;
         background-color: white;
+        align-items: center;
         &:hover{
         background-color: $menu-desktop-purple;
       }
@@ -81,7 +82,7 @@
         line-height: 1.5;
         font-size: 1.9em;
         margin-top: 1em;
-        height: 30%;
+        height: 16%;
       }
       article{
         width: 95.4%;
@@ -142,6 +143,10 @@
     width: 50%;
   }
   .slider-desc{width: 47.5%;}
+  .card{
+    display: flex;
+    align-items: center;
+  }
 }
 
 
@@ -511,7 +516,7 @@
 .products{
     width: 95%;
     margin: auto;
-    height: 54vh;
+    height: 37vh;
     div{
       justify-content: center;
     }
