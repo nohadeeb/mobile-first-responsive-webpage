@@ -841,6 +841,7 @@
   .products {
     width: 95%;
     margin: auto;
+    height: 54vh;
     background-color: #F3F3FF;
   }
   .products div {
@@ -881,6 +882,71 @@
   .products .card-body {
     width: 8em;
     text-align: center;
+  }
+
+  .best-broker1 {
+    padding-left: 17%;
+  }
+  .best-broker1 h3 {
+    color: #42415B;
+    font-family: "roboto";
+    font-weight: bold;
+    text-align: left;
+    width: 95.4%;
+    line-height: 1.5;
+    font-size: 1.9em;
+    margin-top: 1em;
+    height: 8%;
+  }
+  .best-broker1 article {
+    width: 95.4%;
+    margin: auto;
+    color: #170307;
+    text-align: left;
+    line-height: 35px;
+    font-family: "roboto";
+    font-weight: regular;
+    font-size: 1.22em;
+    margin-left: 0;
+  }
+
+  .best-broker2 {
+    padding-left: 17%;
+  }
+  .best-broker2 h4 {
+    color: #42415B;
+    font-family: "roboto";
+    font-weight: bold;
+    text-align: left;
+    width: 95.4%;
+    line-height: 2;
+    font-size: 1.5em;
+    margin-top: 8%;
+  }
+  .best-broker2 article {
+    width: 95.4%;
+    margin: auto;
+    color: #42415B;
+    text-align: left;
+    line-height: 1.7;
+    font-family: "roboto";
+    font-size: 1.1em;
+    margin-left: 0;
+  }
+  .best-broker2 article h5 {
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.7;
+    width: 88%;
+    text-align: left;
+    color: #42415B;
+  }
+  .best-broker2 article h5:before {
+    font-family: "Font Awesome 5 Free";
+    content: "";
+    display: inline-block;
+    margin-right: 2%;
   }
 }
 
