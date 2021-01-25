@@ -1,5 +1,5 @@
 # mobile-first-responsive-webpage
-in this task the challenge was duplicating and develop a fully responsive web page with the best code structure. I used javascript only on the header and menu section , to convert the regular desktop header to a mobile header with burger menu added. javascript code : close-btn() open-btn() and dropwn internal menu.
+in this task the challenge was duplicating and develop a mobile first fully responsive web page with the best code structure. I used javascript only on the header and menu section , to convert the regular desktop header to a mobile header with burger menu added. javascript code : close-btn() open-btn() and dropwn internal menu.
 
 for all elemnet and sections on the webpage I used either the percentage or the EM to set the width - height - padding- marging in order to achieve fully responsive items .
 
