@@ -1,3 +1,4 @@
+
 function openNav() {
   document.getElementById("mySidepanel").style.width = "100%";
 }
@@ -5,7 +6,7 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
-
+$(document).ready(function() {
 var dropdown = document.getElementsByClassName("dropdown-btn");
 var i;
 
@@ -25,3 +26,4 @@ const mQuery = window.matchMedia('(min-width: 768px) and (max-width:1300px)');
 if  (mQuery.matches){
 
 }
+});
