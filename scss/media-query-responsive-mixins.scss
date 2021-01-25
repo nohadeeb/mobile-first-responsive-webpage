@@ -1,0 +1,24 @@
+@mixin respond($breakpoint) {
+  // $breakpoint is simply a variable that can have several values
+
+
+  @if $breakpoint==tablet1{
+    // here `laptop` is the value of $breakpoint
+    // when call laptop, we mean the following piece of code
+
+    @media only screen and (min-width:768px) and (max-width: 992px) {
+      @content;
+    }
+  }
+  @if $breakpoint==desktop{
+    @media only screen and (min-width: 1025px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint==tablet2{
+    @media only screen and (min-width:992px) and (max-width: 1024px) {
+      @content;
+    }
+  }
+}

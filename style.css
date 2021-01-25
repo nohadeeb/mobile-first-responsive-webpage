@@ -1,76 +1,170 @@
 @charset "UTF-8";
-@media only screen and (min-width: 767px) and (max-width: 1200px) {
-  .header-menu_right_3 {
-    display: contents;
-  }
+.header-menu_right_4, .slider-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .header-menu_right {
-    width: 79%;
-  }
-
-  .header-menu_right_4 {
-    width: 21%;
-  }
-
-  .header-menu_right {
-    text-align: right;
-  }
-
-  .header-menu_right i {
-    width: 0%;
-  }
-
+.slider {
+  background-image: url("https://i.ibb.co/zbJjfj8/hero-img.jpg");
+  height: 89vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 54% 0%;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .slider {
-    background-image: url("https://i.ibb.co/zbJjfj8/hero-img.jpg");
-    height: 1116px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 76% 0%;
-    width: 769px;
-  }
-
-  .products > div {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-  }
-
-  .products {
-    width: 95%;
-    margin: auto;
-    background-color: #F3F3FF;
-  }
-  .products div {
-    justify-content: space-around;
-  }
-  .products h2 {
-    color: #42415B;
-    font-family: "roboto";
-    font-weight: bold;
-    text-align: center;
-    width: 189px;
-    line-height: 60px;
-    font-size: 30px;
-    margin: auto;
-    margin-top: 29px;
-  }
-  .products .card {
-    display: flex;
-    flex-direction: column;
-    height: 60px;
-    margin-top: 10px;
-    background-color: white;
-    width: 210px;
-    height: 140px;
-  }
-  .products .card img {
-    padding-left: 16px;
-  }
-  .products .card-body {
-    width: 8em;
-    text-align: center;
+    background-position: 58% 0%;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .slider {
+    width: 100%;
+    height: 100vh;
+  }
+}
+.slider-title {
+  font-size: 38px;
+  font-family: "roboto";
+  font-weight: bold;
+  color: white;
+  width: 62%;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+  font-size: 2.3em;
+  line-height: 1.4em;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .slider-title {
+    width: 47%;
+    text-align: center;
+    margin: auto;
+    padding-top: 190px;
+    height: 96px;
+    line-height: 48px;
+    font-size: 38px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .slider-title {
+    width: 45%;
+    text-align: center;
+    padding-top: 15%;
+    font-size: 2.3em;
+    line-height: 1.4em;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .slider-title {
+    width: 34%;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 2.3em;
+    line-height: 1.4em;
+    margin-left: 10%;
+  }
+}
+.slider-desc {
+  font-family: "roboto";
+  color: white;
+  width: 87.5%;
+  text-align: center;
+  margin: auto;
+  margin-top: 8%;
+  font-size: 1em;
+  height: 21%;
+  line-height: 1.5;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .slider-desc {
+    font-size: 16px;
+    width: 67%;
+    text-align: center;
+    margin: auto;
+    padding-top: 4%;
+    font-size: 16px;
+    height: 85px;
+    margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .slider-desc {
+    font-size: 16px;
+    width: 67%;
+    text-align: center;
+    padding-top: 4%;
+    font-size: 16px;
+    height: 85px;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .slider-desc {
+    font-size: 16px;
+    width: 37%;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 16px;
+    height: 85px;
+    margin-top: 30px;
+    margin-left: 10%;
+  }
+}
+.slider-btn {
+  height: 13.2%;
+  text-align: center;
+  color: white;
+  background-color: #F1A153;
+  width: 91%;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-family: "roboto";
+  line-height: 1;
+  display: flex;
+  margin: auto;
+  margin-top: 8%;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .slider-btn {
+    width: 26.5%;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 27px;
+    font-family: "roboto";
+    line-height: 24px;
+    border-radius: 5px;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .slider-btn {
+    width: 26%;
+    height: 13%;
+    font-size: 18px;
+    margin-top: 27px;
+    line-height: 24px;
+    margin: auto;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .slider-btn {
+    width: 200px;
+    height: 10%;
+    font-size: 18px;
+    margin-top: 27px;
+    line-height: 24px;
+    margin-left: 10%;
+    display: flex;
+  }
+}
+
 .sidepanel {
   width: 0;
   position: fixed;
@@ -280,55 +374,14 @@
   margin-top: 10px;
 }
 
-.slider-btn, .header-menu_right_4 {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+.header-desktop-menu {
+  display: none;
 }
 
-.slider {
-  background-image: url("https://i.ibb.co/zbJjfj8/hero-img.jpg");
-  height: 89vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 54% 0%;
-  width: 105%;
-}
-.slider-title {
-  font-size: 38px;
-  font-family: "roboto";
-  font-weight: bold;
-  color: white;
-  width: 91%;
-  text-align: center;
-  margin: auto;
-  padding-top: 30px;
-  font-size: 2.3em;
-  line-height: 1.4em;
-}
-.slider-desc {
-  font-family: "roboto";
-  color: white;
-  width: 95.5%;
-  text-align: center;
-  margin: auto;
-  margin-top: 10%;
-  font-size: 1em;
-  height: 21%;
-  line-height: 1.5;
-}
-.slider-btn {
-  height: 13.2%;
-  text-align: center;
-  color: white;
-  background-color: #F1A153;
-  width: 96%;
-  margin: auto;
-  font-size: 1.1em;
-  margin-top: 10%;
-  font-family: "roboto";
-  line-height: 1;
+.slider-btn, .header-menu_right_4 {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .products {
@@ -359,6 +412,12 @@
   height: 20%;
   margin-top: 3.5%;
   background-color: white;
+}
+.products .card:hover {
+  background-color: #9CA2C6;
+}
+.products .card:hover .card-body > h5 {
+  color: white;
 }
 .products .card img {
   padding-left: 5.6%;
@@ -451,7 +510,20 @@
   margin-right: 5%;
 }
 
-@media only screen and (min-width: 767px) and (max-width: 1200px) {
+@media only screen and (min-width: 556px) and (max-width: 650px) {
+  .slider-title {
+    width: 50%;
+  }
+
+  .slider-desc {
+    width: 47.5%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  html {
+    width: fit-content;
+  }
+
   .header-menu {
     width: 100%;
   }
@@ -484,40 +556,8 @@
     width: 0%;
   }
 
-  .slider {
-    background-image: url("https://i.ibb.co/zbJjfj8/hero-img.jpg");
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 58% 0%;
-    width: 100%;
-  }
-  .slider-title {
-    width: 690px;
-    text-align: center;
-    margin: auto;
-    padding-top: 190px;
-    height: 96px;
-    line-height: 48px;
-    font-size: 38px;
-  }
-  .slider-desc {
-    font-size: 16px;
-    width: 556px;
-    text-align: center;
-    margin: auto;
-    margin-top: 30px;
-    font-size: 16px;
-    height: 85px;
-    margin-top: 30px;
-  }
-  .slider-btn {
-    width: 200px;
-    margin: auto;
-    font-size: 18px;
-    margin-top: 27px;
-    font-family: "roboto";
-    line-height: 24px;
+  .header-desktop-menu {
+    display: none;
   }
 
   .products > div {
@@ -552,7 +592,7 @@
     height: 60px;
     margin-top: 10px;
     background-color: white;
-    width: 29.2%;
+    width: 22.2%;
     height: 8.7em;
     justify-content: center;
     align-items: center;
@@ -570,7 +610,7 @@
     margin-top: 11%;
   }
 }
-@media (min-width: 1210px) {
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
   .header-menu_right {
     display: flex;
     align-items: center;
@@ -578,13 +618,6 @@
     margin-right: 15px;
     text-align: center;
     width: 61%;
-  }
-  .header-menu_right i:before {
-    font-size: 1;
-  }
-  .header-menu_right a {
-    display: block;
-    flex-basis: 15%;
   }
 
   .header-menu_right .fa-phone {
@@ -606,11 +639,6 @@
     border: 0;
   }
 
-  .header-menu_right_3::before {
-    content: "";
-    font-family: "Font Awesome 5 Free";
-  }
-
   .header-menu_right_4 {
     width: 13%;
   }
@@ -621,6 +649,7 @@
     align-items: center;
     height: 3em;
     background-color: #9CA2C6;
+    text-align: center;
   }
   .header-desktop-menu a {
     flex-basis: 7%;
@@ -639,7 +668,7 @@
   }
   .header-menu_right a {
     display: block;
-    flex-basis: 15%;
+    flex-basis: 26%;
   }
 
   .header-menu_right .fa-phone {
@@ -661,25 +690,12 @@
     border: 0;
   }
 
-  .header-menu_right_3::before {
-    content: "";
-    font-family: "Font Awesome 5 Free";
-  }
-
   .header-menu_right_4 {
     width: 13%;
   }
 
   .header-desktop-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 3em;
-    background-color: #9CA2C6;
-  }
-  .header-desktop-menu a {
-    flex-basis: 7%;
-    color: white;
+    display: none;
   }
 
   .products-cont {
@@ -715,30 +731,156 @@
     display: flex;
     flex-direction: row !important;
   }
-  .products-cont .slider .slider-title {
-    width: 34%;
-    text-align: left;
-    padding-top: 30px;
-    font-size: 2.3em;
-    line-height: 1.4em;
-    margin-left: 10%;
+}
+@media only screen and (min-width: 1025px) {
+  .header-menu_left-burger-menu {
+    display: none;
   }
-  .products-cont .slider-desc {
-    font-size: 16px;
-    width: 556px;
-    text-align: left;
-    margin-top: 30px;
-    font-size: 16px;
-    height: 85px;
-    margin-top: 30px;
-    margin-left: 10%;
+
+  .header-menu_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    text-align: center;
+    width: 61%;
   }
-  .products-cont .slider-btn {
-    width: 200px;
-    font-size: 18px;
-    margin-top: 27px;
-    line-height: 24px;
-    margin-left: 10%;
+  .header-menu_right i:before {
+    font-size: 1;
+  }
+  .header-menu_right a {
+    display: block;
+    flex-basis: 20%;
+  }
+
+  .header-menu_right .fa-phone {
+    font-size: 1em;
+    color: #42415B;
+    transform: scaleX(-1);
+    width: 0%;
+    text-align: center;
+    position: relative;
+    left: 2em;
+  }
+  .header-menu_right .fa-phone:before {
+    font-size: 0.9em;
+  }
+
+  .header-menu_left {
+    width: 33%;
+    display: flex;
+    border: 0;
+  }
+
+  .header-menu_right_4 {
+    width: 13%;
+  }
+
+  .header-menu_right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+    text-align: center;
+    width: 61%;
+  }
+  .header-menu_right i:before {
+    font-size: 1;
+  }
+  .header-menu_right a {
+    display: block;
+    flex-basis: 20%;
+  }
+
+  .header-menu_right .fa-phone {
+    font-size: 1em;
+    color: #42415B;
+    transform: scaleX(-1);
+    width: 0%;
+    text-align: center;
+    position: relative;
+    left: 2em;
+  }
+  .header-menu_right .fa-phone:before {
+    font-size: 0.9em;
+  }
+
+  .header-menu_left {
+    width: 33%;
+    display: flex;
+    border: 0;
+  }
+
+  .header-menu_right_4 {
+    width: 13%;
+  }
+
+  .header-desktop-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    background-color: #A4AAD0;
+    text-align: center;
+  }
+  .header-desktop-menu a {
+    flex-basis: 12%;
+    font-family: "roboto";
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+
+  .products > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .products {
+    width: 95%;
+    margin: auto;
+    background-color: #F3F3FF;
+  }
+  .products div {
+    justify-content: center;
+  }
+  .products h2 {
+    color: #42415B;
+    font-family: "roboto";
+    font-weight: bold;
+    text-align: center;
+    width: 27%;
+    line-height: 2;
+    font-size: 1.8em;
+    margin: auto;
+    margin-top: 4%;
+  }
+  .products .card {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    margin-top: 10px;
+    background-color: white;
+    width: 15.2%;
+    height: 8.7em;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8em;
+  }
+  .products .card:hover {
+    background-color: #9CA2C6;
+  }
+  .products .card:hover .card-body > h5 {
+    color: white;
+  }
+  .products .card img {
+    padding-left: 16px;
+  }
+  .products .card-body {
+    width: 8em;
+    text-align: center;
   }
 }
 

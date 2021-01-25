@@ -1,0 +1,157 @@
+@include respond (tablet1){}
+@include respond (tablet2){}
+@include respond (desktop){}
+%btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider{
+    background-image: url("https://i.ibb.co/zbJjfj8/hero-img.jpg");
+    height: 89vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 54% 0%;
+    width: 100%;
+      @include respond (tablet1){ 
+            height: 600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 58% 0%;
+
+      }
+      @include respond (tablet2){
+          width: 100% ;
+          height: 100vh;
+      }
+      @include respond (desktop){}
+
+    &-title{
+        font-size: 38px;
+        font-family: "roboto";
+        font-weight: bold;
+        color: white;
+        width: 62%;
+        text-align: center;
+        margin: auto;
+        padding-top: 30px;
+        font-size: 2.3em;
+        
+        line-height: 1.4em;
+
+      @include respond (tablet1){
+
+        width: 47%;
+        text-align: center;
+        margin: auto;
+        padding-top: 190px;
+        height: 96px;
+        line-height: 48px;
+        font-size: 38px;
+      }
+      @include respond (tablet2){
+            width: 45%;
+            text-align: center;
+            padding-top: 15%;
+            font-size: 2.3em;
+            line-height: 1.4em;
+            margin: auto;
+      }
+      @include respond (desktop){
+
+            width: 34%;
+            text-align: left;
+            padding-top: 30px;
+            font-size: 2.3em;
+            line-height: 1.4em;
+            margin-left: 10%; 
+      }
+        
+    }
+    &-desc{
+      font-family: "roboto";
+    color: white;
+    width: 87.5%;
+    text-align: center;
+    margin: auto;
+    margin-top: 8%;
+    font-size: 1em;
+    height: 21%;
+    line-height: 1.5;
+
+     @include respond (tablet1){
+        font-size: 16px;
+        width: 67%;
+        text-align: center;
+        margin: auto;
+        padding-top: 4%;
+        font-size: 16px;
+        height: 85px;
+        margin-top: 30px;
+     }
+      @include respond (tablet2){
+        font-size: 16px;
+        width: 67%;
+        text-align: center;
+        padding-top: 4%;
+        font-size: 16px;
+        height: 85px;
+        margin: auto;
+      }
+      @include respond (desktop){
+        font-size: 16px;
+        width: 37%;
+        text-align: left;
+        margin-top: 30px;
+        font-size: 16px;
+        height: 85px;
+        margin-top: 30px;
+        margin-left: 10%;
+      }
+    }
+    &-btn{
+      height: 13.2%;
+    text-align: center;
+    color: white;
+    background-color: $button;
+    width: 91%;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-family: "roboto";
+    line-height: 1;
+    display: flex;
+      @extend %btn;
+      margin: auto;
+      margin-top: 8%;
+
+      @include respond (tablet1){
+      width: 26.5%;
+      margin: auto;
+      font-size: 18px;
+      margin-top: 27px;
+      font-family: "roboto";
+      line-height: 24px;
+      border-radius: 5px;
+      display: flex;
+
+      }
+      @include respond (tablet2){
+      width: 26%;
+      height: 13%;
+      font-size: 18px;
+      margin-top: 27px;
+      line-height: 24px;
+      margin: auto;
+      display: flex;
+      }
+      @include respond (desktop){
+      width: 200px;
+      height: 10%;
+      font-size: 18px;
+      margin-top: 27px;
+      line-height: 24px;
+      margin-left: 10%;
+      display: flex;
+      }
+    }
+}
